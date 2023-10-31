@@ -1,0 +1,62 @@
+version: "3.1"
+
+stories:
+
+- story: compra sin cuenta
+  steps:
+    -  intent: greet
+    -  action: utter_greet
+    -  action: utter_ask_cuenta
+    -  intent: deny
+    -  action: utter_crear_cuenta
+    -  action: utter_ask_compra
+    -  intent: comprar
+    -  action: decir_categoria
+    -  action: utter_ofrecer_link
+    -  intent: deny
+    -  action: utter_mas_servicio
+
+- story: compra sin cuenta con link
+  steps:
+    -  intent: greet
+    -  action: utter_greet
+    -  action: utter_ask_cuenta
+    -  intent: deny
+    -  action: utter_crear_cuenta
+    -  action: utter_ask_compra
+    -  intent: comprar
+    -  action: decir_categoria
+    -  action: utter_ofrecer_link
+    -  intent: affirm
+    -  action: enviar_link
+    -  action: utter_mas_servicio
+
+- story: compra de producto con cuenta
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - action: utter_ask_cuenta
+    - intent: affirm
+    - action: utter_ask_compra
+    - intent: comprar
+    - action: decir_categoria
+    - action: utter_ofrecer_link
+    - intent: affirm
+    - action: enviar_link
+    - action: utter_mas_servicio
+
+- story: compra de producto con cuenta sin link
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - action: utter_ask_cuenta
+    - intent: affirm
+    - action: utter_ask_compra
+    - intent: comprar
+    - action: decir_categoria
+    - action: utter_ofrecer_link
+    - intent: deny
+    - action: utter_mas_servicio
+
+
+

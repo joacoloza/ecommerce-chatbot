@@ -1,0 +1,106 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hola
+    - holaa
+    - buenas
+    - buenos dias
+    - eu
+    - que tal
+    - que onda compa
+    - que onda
+    - buenas tardes
+    - buenas noches
+    - buenasss
+
+- intent: cuenta
+  examples: |
+    - quiero crear una cuenta
+    - como creo una cuenta?
+    - me envias un link para crear una cuenta?
+    - necesito un link para crear una cuenta
+
+- intent: comprar
+  examples: |
+    - busco herramientas [electricas](categoria)
+    - busco herramientas de [jardin](categoria)
+    - ando buscando herramientas [manuales](categoria)
+    - ando buscando herramientas de [jardin](categoria)
+    - necesito herramientas [electricas](categoria)
+    - necesito herramientas de [jardin](categoria)
+    - quiero comprar herramientas de la marca [bremen](marca)
+    - busco herramientas de la marca [harden](marca)
+    - ando buscando herramientas de marca [bulit](marca)
+    - necesito herramientas de la marca [hamilton](marca)
+    - quiero un [taladro](producto)
+    - busco un [martillo](producto)
+    - busco una [sierra](producto)
+    - necesito un [sierra](producto)
+    - necesito una [sierra](producto)
+    - quiero comprar herramientas [electricas](categoria)
+
+- intent: pedir_ofertas
+  examples: |
+    - cuales son las ofertas del dia?
+    - que ofertas hay?
+    - que ofertas hay
+    - que ofertas hay hoy?
+    - que ofertas hay hoy
+    - me gustaria ver las ofertas del dia
+    - me gustaria ver las ofertas
+    - quier ver las ofertas del dia
+    - que ofertas hay disponibles?
+    - cuales son las ofertas disponibles?
+    - que ofertas hay disponibles
+    - cuales son las ofertas disponibles
+- intent: carrito
+  examples: |
+    - mostrame mi carrito
+    - que tengo en el carrito?
+    - quiero ver que tengo en mi carrito
+    - necesito ver mi carrito
+    - quiero ver mi carrito
+    - podrias mostrarme mi carrito?
+
+- intent: affirm
+  examples: |
+    - si
+    - correcto
+    - exactamente
+    - claro
+    - sisi
+    - sii
+    - si!
+    - dale
+    - dalee
+    - s
+    - todo bien,si
+    - si,todo bien
+    - bien bien,si
+    - si, bien bien
+
+- intent: deny
+  examples: |
+    - no
+    - nono
+    - no no
+    - no,gracias
+    - no es lo que busco
+    - noo
+    - no me interesa
+    - no me gusta
+
+- intent: goodbye
+  examples: |
+    - nos vemos
+    - gracias nos vemos
+    - hasta luego
+    - chau
+    - hasta la proxima
+    - nv
+    - adios
+
+- intent: start
+  examples: |
+    - /start

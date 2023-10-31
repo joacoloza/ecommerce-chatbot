@@ -1,0 +1,35 @@
+version: "3.1"
+
+rules:
+  - rule: dar el link siempre que se pregunten por ofertas
+    steps:
+    - intent: pedir_ofertas
+    - action: utter_ofertas
+    - action: utter_mas_servicio
+
+  - rule: frenar la conversacion siempre que me digan que no
+    steps:
+    - action: utter_mas_servicio
+    - intent: deny
+    - action: utter_goodbye
+
+  - rule: dar el link al carrito
+    steps:
+      - intent: carrito
+      - action: utter_carritolink
+      - action: utter_mas_servicio
+
+  - rule: despedirse cada vez que me dicen adios
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+  - rule: crear cuenta
+    steps:
+      - intent: cuenta
+      - action: utter_crear_cuenta
+
+  - rule: start
+    steps:
+      - intent: start
+      - action: utter_telegram
+

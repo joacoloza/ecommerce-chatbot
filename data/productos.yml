@@ -1,0 +1,2818 @@
+version: "3.1"
+nlu:
+- lookup: producto
+  examples: |
+    - Acc. para Motos y Cuatriciclos
+    - Alarmas para Motos
+    - Alforjas
+    - Baúles y Anclajes
+    - Caballetes
+    - Cascos
+    - Cubre Amortiguadores
+    - Cubre Manos
+    - Cubre Rayos
+    - Defensas
+    - Emblemas
+    - Fundas
+    - Indumentaria y Calzado
+    - Intercomunicadores
+    - Lingas de Equipaje
+    - Lingas y Trabas
+    - Mochilas y Bolsos
+    - Pads para Manubrios
+    - Parabrisas
+    - Parlantes
+    - Pisaderas
+    - Protectores de Radiadores
+    - Rampas
+    - Redes de Pulpo
+    - Repuestos para Cascos
+    - Simil Turbo
+    - Sliders
+    - Soportes de Parabrisas
+    - Straps
+    - Tableros y Velocímetros
+    - Visores para Cascos
+    - Accesorios Náuticos
+    - Bombas y Filtros de Agua
+    - Fondeo y Amarre
+    - Iluminación
+    - Interior de Cabina
+    - Limpieza y Mantenimiento
+    - Protección y Transporte
+    - Seguridad y Salvamento
+    - Sistemas de Navegación
+    - Accesorios de Auto y Camioneta
+    - Accesorios de Exterior
+    - Accesorios de Interior
+    - Accesorios para Línea Pesada
+    - Accesorios de Exterior
+    - Accesorios de Interior
+    - Audio para Vehículos
+    - Antenas
+    - Bazookas
+    - Cables y Conectores
+    - Capacitores
+    - Controles Remotos
+    - Cornetas
+    - DVD Para Techos
+    - Drivers
+    - Ecualizadores
+    - Interfaces
+    - Lunetas y Cajas Acústicas
+    - Pantallas
+    - Parlantes
+    - Potencias y Amplificadores
+    - Rejillas
+    - Reproductores
+    - Sets de Parlantes Componentes
+    - GNC
+    - Equipos Completos
+    - Repuestos
+    - Herramientas para Vehículos
+    - Bateas de Ultrasonido
+    - Bocallaves y Accesorios
+    - Cabinas de Pintura
+    - Camillas para Mecánicos
+    - Desarmadoras de Neumáticos
+    - Elevación
+    - Escaneo
+    - Espátulas para Polarizado
+    - Extractores de Polea
+    - Herramientas de Inspección
+    - Herramientas para Baterías
+    - Infladores
+    - Llaves
+    - Malacates
+    - Medición
+    - Limpieza de Vehículos
+    - Abrillantadores
+    - Anticorrosivos
+    - Aromatizadores
+    - Aspiradoras
+    - Ceras
+    - Desengrasantes
+    - Limpia Radiadores
+    - Limpiadores de Cuero
+    - Lubricantes
+    - Pads
+    - Paños
+    - Pulidoras
+    - Removedores de Rayones
+    - Selladores
+    - Shampoo para Autos
+    - Tratamientos
+    - Llantas y Accesorios
+    - Llantas de Autos y Camionetas
+    - Llantas para Camiones
+    - Llantas para Cuatriciclos
+    - Llantas para Motos
+    - Parches para Llantas
+    - Lubricantes y Fluidos
+    - Aditivos
+    - Agro e Industria
+    - Autos y Camionetas
+    - Grasas
+    - Línea Pesada
+    - Líquidos
+    - Motos
+    - Náutica
+    - Motos
+    - Navegadores GPS para Vehículos
+    - Accesorios
+    - Equipos GPS
+    - Mapas
+    - Neumáticos
+    - Cubiertas para Bicicletas
+    - Cubiertas para Monopatines
+    - Cubiertas para Motos
+    - Cámaras para Neumáticos
+    - Neumáticos Agrícolas
+    - Neumáticos Industriales
+    - Neumáticos de Auto y Camioneta
+    - Neumáticos para Aeronaves
+    - Neumáticos para Camiones
+    - Neumáticos para Cuatriciclos
+    - Selladores
+    - Performance
+    - Filtros y Lubricantes
+    - Frenos
+    - Habitáculo
+    - Motor
+    - Suspensión y Dirección
+    - Transmisión
+    - Repuestos Autos y Camionetas
+    - Baterías
+    - Carrocería
+    - Cerraduras y Llaves
+    - Climatización
+    - Componentes de Seguridad
+    - Cristales
+    - Electroventiladores
+    - Encendido
+    - Escapes
+    - Filtros
+    - Frenos
+    - Iluminación
+    - Instalaciones Eléctricas
+    - Inyección
+    - Motor
+    - Repuestos de Exterior
+    - Repuestos de Habitáculo
+    - Suspensión y Dirección
+    - Transmisión
+    - Repuestos Motos y Cuatriciclos
+    - Baterías
+    - Chasis
+    - Encendido
+    - Escapes y Silenciadores
+    - Espejos
+    - Faros y Ópticas
+    - Filtros
+    - Motor
+    - Transmisión
+    - Repuestos Náuticos
+    - Controles y Conducción
+    - Cubierta y Cabina
+    - Herrajes y Fijaciones
+    - Motores y Repuestos
+    - Navegación a Vela
+    - Repuestos de Línea Pesada
+    - Bastidores
+    - Baterías
+    - Cajas de Velocidades
+    - Cerraduras y Llaves
+    - Climatización
+    - Cristales
+    - Ejes
+    - Electroventiladores
+    - Encendido
+    - Escapes
+    - Filtros
+    - Frenos
+    - Iluminación
+    - Inyección
+    - Motor
+    - Repuestos de Cabina
+    - Repuestos de Exterior
+    - Sensores
+    - Sistema Eléctrico
+    - Sistemas de Refrigeración
+    - Suspensión y Dirección
+    - Transmisión
+    - Seguridad Vehicular
+    - Alarmas y Accesorios
+    - Antirrobos de Ruedas
+    - Balizas
+    - Cadenas para Nieve
+    - Chalecos Reflectivos
+    - Cierres Centralizados
+    - Controles
+    - Kit de Seguridad para Autos
+    - Lingas y Trabas
+    - Matafuegos
+    - Polarizado
+    - Rastreadores Vehiculares
+    - Sirenas
+    - Testers de Alcoholemia
+    - Topes de Estacionamiento
+    - Traba Volantes
+    - Servicio Programado
+    - Alineación y Balanceo
+    - Cambio de Batería
+    - Filtros y Fluidos
+    - Frenos
+    - Motor
+    - Transmisión
+    - Tren Delantero
+    - Tags para el Pago de Peajes
+    - Tuning
+    - Cromados
+    - Iluminación
+    - Merchandising
+    - Pinturas para Autos
+    - Polarizado
+    - Tuning Exterior
+    - Tuning Interior
+    - Vinilos y Calcos
+    - Agricultura de Precisión
+    - Banderilleros Satelitales
+    - Dosificadores Variables
+    - Equipos GPS
+    - Estaciones Meteorológicas
+    - Higrómetros
+    - Medidores de Leche Eléctricos
+    - Monitores
+    - Pilotos Automáticos
+    - Sensores de Siembra
+    - Termómetros Ambientales
+    - Almacenaje
+    - Aireadores
+    - Silo Bolsas
+    - Silos
+    - Animales
+    - Caballos y Yeguas
+    - Gallos y Gallinas
+    - Toros
+    - Apicultura
+    - Colmenas
+    - Extracción de Miel
+    - Herramientas de Trabajo
+    - Piqueras
+    - Rejillas Excluidoras de Reinas
+    - Traje de Apicultor
+    - Trampas Cazapolen
+    - Trampas para Propóleos
+    - Energia Renovable
+    - Inversores
+    - Molinos de Viento
+    - Paneles Solares
+    - Fertilizantes
+    - Generadores de Energía
+    - Energía Renovable
+    - Grupos Electrógenos
+    - Herramientas de Trabajo
+    - Herramientas Eléctricas
+    - Herramientas Manuales
+    - Infraestructura Rural
+    - Alambrados
+    - Balanzas y Básculas
+    - Bombas
+    - Caravanas para Ganado
+    - Carros
+    - Cercos Eléctricos y Accesorios
+    - Pinzas para Caravanas
+    - Planos y Proyectos
+    - Tanques
+    - Tranqueras
+    - Insumos Agrícolas
+    - Fertilizantes
+    - Hidroponía
+    - Insecticidas y Herbicidas
+    - Semillas para Agricultura
+    - Insumos Ganaderos
+    - Alimentación y Suplementos
+    - Bebederos Automáticos
+    - Comederos
+    - Lubricantes y Fluidos
+    - Aceites de Motor
+    - Aditivos
+    - Grasas
+    - Máquinas y Herramientas
+    - Clasificadoras de Vegetales
+    - Dosificadoras de Polvo y Grano
+    - Embolsadoras de Forrajes
+    - Moledoras de Granos
+    - Molinos Pulverizadores
+    - Máquinas Ordeñadoras
+    - Otras
+    - Plantadoras Manuales
+    - Plantas de Alimentos
+    - Prensas Enfardadoras
+    - Rastras de Levante
+    - Sembradoras
+    - Subsoladores
+    - Talladoras de Engranaje
+    - Tostadoras de Café
+    - Tractores Cortacésped
+    - Protección de Cultivos
+    - Coadyuvantes
+    - Fungicidas
+    - Herbicidas
+    - Insecticidas
+    - Repuestos Maquinaria Agrícola
+    - Cabina
+    - Carrocería
+    - Dirección y Frenos
+    - Eje Delantero y Dirección
+    - Embrague
+    - Escapes Completos
+    - Filtros
+    - Implementos y Tomas de Fuerza
+    - Motor
+    - Para Cosechadoras
+    - Para Pulverizadoras
+    - Para Sembradoras
+    - Para Tractores
+    - Plataforma
+    - Sistema Hidráulico
+    - Sistema de Combustible
+    - Sistema de Pulverización
+    - Transmisión
+    - Semillas
+    - Almacén
+    - Aceites y Vinagres
+    - Algas Nori
+    - Alimentos Instantáneos
+    - Arroz Legumbres y Semillas
+    - Azúcar y Endulzantes
+    - Bolsas para Cocinar
+    - Canastas Básicas
+    - Cereales y Barras
+    - Cous Cous
+    - Dulces y Chocolates
+    - Encurtidos y Conservas
+    - Galletitas
+    - Harina
+    - Infusiones
+    - Levaduras
+    - Lúpulo
+    - Mermeladas Dulces y Miel
+    - Pan Rallado
+    - Panadería
+    - Pastas
+    - Pulpas de Fruta
+    - Quesos Rallados
+    - Repostería y Pastelería
+    - Saborizantes y Jarabes
+    - Salsas y Condimentos
+    - Snacks
+    - Tapas de Tartas y Empanadas
+    - Tripas para Embutido
+    - Bebidas
+    - Aguas
+    - Bebidas Alcohólicas Preparadas
+    - Bebidas Aperitivos
+    - Bebidas Blancas y Licores
+    - Bebidas Energizantes
+    - Bebidas Isotónicas
+    - Cervezas
+    - Gaseosas
+    - Jugos
+    - Leche
+    - Otras Bebidas
+    - Vinos y Espumantes
+    - Comida Preparada
+    - Bandejas Dulces y Saladas
+    - Desayunos y Meriendas
+    - Empanadas
+    - Entradas y Acompañamientos
+    - Helados y Postres
+    - Platos Principales
+    - Sandwiches
+    - Tablas de Picadas
+    - Tartas Saladas
+    - Congelados
+    - Frutas Congeladas
+    - Hamburguesas
+    - Helados y Postres
+    - Mariscos
+    - Milanesas y Medallones
+    - Papas Congeladas
+    - Pizzas Congeladas
+    - Snacks Congelados
+    - Vegetales Congelados
+    - Frescos
+    - Achuras
+    - Carnes y Pollos
+    - Embutidos
+    - Fiambres
+    - Frutas y Verduras
+    - Huevos
+    - Lácteos
+    - Pescados
+    - Postres Refrigerados
+    - Kéfir
+    - Aves
+    - Alimentos
+    - Anillos
+    - Aves
+    - Bebederos y Comederos
+    - Cetrería
+    - Huevos Fértiles
+    - Incubadoras
+    - Juguetes
+    - Nidos
+    - Caballos
+    - Artículos para Equitación
+    - Caballos y Yeguas
+    - Carretas
+    - Fardos
+    - Higiene y Cuidado
+    - Suplementos para Caballos
+    - Conejos
+    - Conejos
+    - Correas para Mascotas
+    - Gatos
+    - Accesorios
+    - Alimento Premios y Suplemento
+    - Camas y Cuchas
+    - Comederos y Bebederos
+    - Estética e Higiene
+    - Gatos
+    - Juguetes
+    - Puertas y Rampas
+    - Viaje y Paseo
+    - Insectos
+    - Cucarachas
+    - Escarabajos
+    - Grillos
+    - Jaulas para Mascotas
+    - Peces
+    - Alimentos
+    - Peceras y Accesorios
+    - Peces
+    - Perros
+    - Adiestramiento
+    - Alimento Premios y Suplemento
+    - Bebederos y Comederos
+    - Camas y Cuchas
+    - Estética e Higiene
+    - Indumentaria y Accesorios
+    - Juguetes
+    - Perros de Cruza
+    - Perros de Raza
+    - Perros en Adopción
+    - Puertas Rampas y Corrales
+    - Sillas de Ruedas
+    - Viaje y Paseo
+    - Reptiles y Anfibios
+    - Alimentos
+    - Terrarios y Tortugueros
+    - Roedores
+    - Alimentos y Vitaminas
+    - Bebederos y Comederos
+    - Casas
+    - Juguetes
+    - Roedores
+    - Shampoos
+    - Sustratos
+    - Antigüedades
+    - Arañas
+    - Artículos Marítimos Antiguos
+    - Audio Antiguo
+    - Balanzas Antiguas
+    - Campanas
+    - Cinturones de Lucha
+    - Electrodomésticos Antiguos
+    - Instrumentos Musicales
+    - Latas y Botellas
+    - Llaveros
+    - Llaves y Candados Antiguos
+    - Medalleros
+    - Máquinas de Escribir e Insumos
+    - Navajas y Cuchillos Antiguos
+    - Percheros
+    - Perfumeros
+    - Petacas Licoreras
+    - Proyectores Antiguos
+    - Registradoras Antiguas
+    - Retablos
+    - Sifones Antiguos
+    - Sillas
+    - Sulkys y Carros Antiguos
+    - Tarjetas Coleccionables
+    - Tazos
+    - Teléfonos Antiguos
+    - Trofeos
+    - Banderas
+    - Coleccionables de Deportes
+    - Esculturas
+    - Filatelia
+    - Estampillas
+    - Postales
+    - Sellos
+    - Sobres
+    - Tarjetas Telefónicas
+    - Militaría y Afines
+    - Espadas
+    - Fotos
+    - Indumentaria Militar
+    - Láminas
+    - Medallas
+    - Picanas
+    - Platos
+    - Vainas para Cuchillos
+    - Monedas y Billetes
+    - Billetes
+    - Fichas y Cospeles
+    - Medallas
+    - Monedas
+    - Álbumes para Numismática
+    - Posters
+    - Arte y Manualidades
+    - Adornos y Objetos para Pintar
+    - Artesanía en Cerámica
+    - Artesanía en Resina
+    - Carteles y Letreros
+    - Cuadros de Autor
+    - Insumos para Hacer Velas
+    - Kits de Puntillismo
+    - Masas y Plastilina
+    - Moldes para Manualidades
+    - Máquinas Corta Botellas
+    - Planchas de Corcho
+    - Porcelana Fría
+    - Vinilos para Frasco y Botella
+    - Espejos Venecitas
+    - Librería
+    - Agendas y Diarios Íntimos
+    - Artística y Pintura
+    - Banditas Elásticas
+    - Comercial y Oficina
+    - Escolar
+    - Globos Terráqueos
+    - Pizarras y Pizarrones
+    - Separadores de Libros
+    - Stencils
+    - Mercería
+    - Abrojos
+    - Agujas
+    - Anilinas
+    - Artículos para Bijouterie
+    - Barras de Silicona
+    - Bolsas de Silicagel
+    - Cadenas
+    - Calzadores de Medias
+    - Cintas
+    - Cintas Reflectivas
+    - Cordones
+    - Costura y Bordado
+    - Elásticos
+    - Etiquetas de Tela
+    - Extensiones para Corpiños
+    - Flecos
+    - Flores de Tela
+    - Fundas para Ropa
+    - Lanas
+    - Lentejuelas
+    - Máquinas para Broches
+    - Parches
+    - Pistolas Encoladoras
+    - Plumas
+    - Puntillas
+    - Quita Pelusas
+    - Retazos de Tela
+    - Rollos de Strass
+    - Rollos de Tela
+    - Tachas
+    - Telares
+    - Tijeras de Sastre
+    - Zapatería
+    - Andadores y Vehículos de Bebés
+    - Andadores y Caminadores
+    - Camicletas
+    - Triciclos
+    - Artículos de Bebés para Baño
+    - Alargadores de Canilla
+    - Aros de Baño
+    - Batas
+    - Bañeras para Bebés
+    - Cepillos de Dientes
+    - Flotadores para Baño
+    - Mingitorios
+    - Pelelas
+    - Termómetros para Baño
+    - Toallones
+    - Viseras de Baño
+    - Artículos de Maternidad
+    - Almohadones de Maternidad
+    - Cambiadores Portátiles
+    - Diarios para Bebés
+    - Fajas para Embarazadas
+    - Kit Maternidad
+    - Mochilas y Bolsos Maternales
+    - Pezoneras
+    - Protectores Mamarios
+    - Ropa para Embarazadas
+    - Chupetes y Mordillos
+    - Chupetes
+    - Chupetes Alimentarios
+    - Esterilizadores de Chupetes
+    - Mordillos
+    - Porta Chupetes
+    - Prendedores Para Chupetes
+    - Comida para Bebés
+    - Cereales
+    - Galletas para Bebés
+    - Leche Maternizada
+    - Papilla
+    - Corralitos
+    - Cuarto del Bebé
+    - Almohadones
+    - Cambiadores Rígidos
+    - Carteles de Nacimiento
+    - Colchones
+    - Cunas Catres y Moisés
+    - Juegos de Cuarto para Bebé
+    - Mantas de Apego
+    - Nido de Contención
+    - Organizadores de Juguetes
+    - Organizadores de Pañales
+    - Portadientes de Leche
+    - Ropa de Cuna
+    - Higiene y Cuidado del Bebé
+    - Colonias para Bebés
+    - Cremas Pomadas y Aceites
+    - Esponjas
+    - Jabones
+    - Kits de Cuidado para Bebés
+    - Pañales
+    - Paños de Algodón
+    - Peines y Cepillos
+    - Shampoos y Acondicionadores
+    - Talcos para Bebés
+    - Toallitas Húmedas
+    - Juegos y Juguetes para Bebés
+    - Caballitos Mecedores
+    - Centro de Actividades
+    - Gimnasios
+    - Juegos de Arrastre
+    - Juegos de Encastre y Apilables
+    - Juguetes para el Baño
+    - Laberintos y Cubos Didácticos
+    - Mecedoras y Saltarines
+    - Mesas Didácticas
+    - Muñecos de Estimulación
+    - Móviles
+    - Pelotas
+    - Peluches
+    - Sonajeros
+    - Lactancia y Alimentación
+    - Baberos para Comer
+    - Babitas
+    - Bolsas para Leche Materna
+    - Calentadores
+    - Esterilizadores Eléctricos
+    - Mamaderas y Accesorios
+    - Sacaleches
+    - Sillas de Comer
+    - Vasos Platos y Cubiertos
+    - Paseo del Bebé
+    - Accesorios para Cochecitos
+    - Almohadas para Cinturones
+    - Arneses y Correas
+    - Cochecitos para Bebés
+    - Huevitos y Sillitas para Autos
+    - Mochilas y Porta Bebés
+    - Organizadores para Autos
+    - Parasoles para Autos
+    - Ropa y Calzado para Bebés
+    - Accesorios
+    - Batas
+    - Bermudas y Shorts
+    - Blusas
+    - Bodys
+    - Buzos
+    - Calzados
+    - Camisas
+    - Camperas
+    - Conjuntos
+    - Jardineros
+    - Kits para Salida del Hospital
+    - Medias
+    - Pantalones
+    - Pijamas
+    - Polleras
+    - Remeras Musculosas y Chombas
+    - Saquitos y Sweaters
+    - Trajes de Baño
+    - Vestidos
+    - Salud del Bebé
+    - Aspiradores Nasales
+    - Botones Repelentes
+    - Chupetes Termómetros
+    - Collares de Dentición
+    - Seguridad para Bebés
+    - Alfombras Antigolpes
+    - Baby Calls
+    - Barandas
+    - Cascos para Bebés
+    - Espejos Retrovisores
+    - Pisos de Goma
+    - Protectores de Enchufes
+    - Protectores de Esquinas
+    - Puertas de Seguridad
+    - Rodilleras para Bebés
+    - Torres de Aprendizaje
+    - Trabas para Puertas
+    - Artefactos para el Cabello
+    - Bucleras
+    - Cepillos Eléctricos
+    - Cortadoras de Pelo
+    - Kits de Aparatos para Cabello
+    - Planchitas de Pelo
+    - Repuestos de Cortadora de Pelo
+    - Secadores de Pelo
+    - Trimmers
+    - Artículos de Peluquería
+    - Accesorios de Peluquería
+    - Extensiones y Pelucas
+    - Muebles para Peluquerías
+    - Barbería
+    - Afeitadoras
+    - Brochas de Afeitar
+    - Bálsamos Aceites y Tónicos
+    - Capas
+    - Cartuchos para Afeitadoras
+    - Cepillos Alisadores para Barba
+    - Espumas de Afeitar
+    - Hojas de Afeitar
+    - Jabones para Barba
+    - Kits para Barba
+    - Navajas de Afeitar
+    - Peines Barberos
+    - Productos Post Afeitar
+    - Cuidado de la Piel
+    - Autobronceantes
+    - Bálsamos Labiales
+    - Cuidado Corporal
+    - Cuidado Facial
+    - Kits de Cuidado de la Piel
+    - Limpieza Facial
+    - Máscaras Faciales
+    - Protección Solar
+    - Repelentes para la Piel
+    - Cuidado del Cabello
+    - Crema para Peinar
+    - Fijadores para el Cabello
+    - Shampoos y Acondicionadores
+    - Tinturas y Decolorantes
+    - Tratamientos para el Cabello
+    - Depilación
+    - Bandas Depilatorias
+    - Cera Depilatoria
+    - Cremas Depilatorias
+    - Depiladoras
+    - Fundidor de Cera
+    - Kits Depilatorios
+    - Lapiceras Capilares
+    - Moldes para Cejas
+    - Pinzas de Depilar
+    - Resortes Depiladores
+    - Farmacia
+    - Alcohol Etílico
+    - Alcoholes en Aerosol
+    - Alcoholes en Gel
+    - Algodones
+    - Bicarbonato de Sodio
+    - Bolsas de Colostomía
+    - Cuidado Sexual
+    - Cápsulas Vacías
+    - Gasas
+    - Tests de Embarazo y Ovulación
+    - Vendas
+    - Higiene Personal
+    - Absorbentes de Axilas
+    - Afeitadoras Descartables
+    - Cartuchos para Afeitadoras
+    - Cuidado Bucal
+    - Curitas
+    - Desodorantes
+    - Espumas de Afeitar
+    - Higiene Femenina
+    - Hisopos
+    - Hojas de Afeitar
+    - Jabones
+    - Limpiadores de Oídos
+    - Papeles Higiénicos
+    - Pañuelos Descartables
+    - Protección para Incontinencia
+    - Rascadores de Espalda
+    - Talco
+    - Toallas Húmedas
+    - Manicuría y Pedicuría
+    - Decoración para Uñas
+    - Dedos para Práctica
+    - Diluyentes de Esmalte
+    - Esmaltes
+    - Instrumentos
+    - Manos para Práctica
+    - Moldes Protectores de Esmalte
+    - Muestrarios de Uñas
+    - Pantuflas Descartables
+    - Parafineros
+    - Porta Esmaltes
+    - Quitaesmaltes
+    - Sprays Seca Esmaltes
+    - Tratamientos para Manos y Pies
+    - Uñas Esculpidas
+    - Maquillaje
+    - Agujas para Microblading
+    - Aplicadores y Herramientas
+    - Labios
+    - Maletines de Maquillaje
+    - Ojos
+    - Organizadores de Maquillaje
+    - Rostro
+    - Set de Maquillaje
+    - Perfumes y Fragancias
+    - Perfumes
+    - Sets de Fragancias
+    - Splash Corporal
+    - Tratamientos de Belleza
+    - Correctores Nasales
+    - Dermógrafos
+    - Equipos de Cosmetología
+    - Equipos de Estética Corporal
+    - Fajas Reductoras
+    - Guantes Exfoliantes
+    - Insumos
+    - Microblading
+    - Reductores de Papada
+    - Vinchas Cosmetológicas
+    - Voluminizadores de Labios
+    - Accesorios para Cámaras
+    - Bolsos y Cuidado de la Cámara
+    - Cargadores y Baterías
+    - Claquetas de Cine
+    - Controles Remotos
+    - Displays
+    - Estudio e Iluminación
+    - Micrófonos
+    - Monitores
+    - Para Cámaras de Acción
+    - Posicionadores de Bebés
+    - Rollos
+    - Soportes y Estabilizadores
+    - Tarjetas de Memoria y Lectores
+    - Teleprompters
+    - Tripodes
+    - Viewfinders
+    - Cables
+    - Audio y Video
+    - USB
+    - Cámaras
+    - Cámaras Analógicas
+    - Cámaras Digitales
+    - Drones y Accesorios
+    - Accesorios y Repuestos
+    - Drones
+    - Filmadoras y Cámaras de Acción
+    - Instrumentos Ópticos
+    - Binoculares
+    - Microscopios
+    - Monoculares
+    - Oculares
+    - Telescopios
+    - Lentes y Filtros
+    - Anillos Adaptadores
+    - Filtros
+    - Lentes
+    - Parasoles
+    - Tapas
+    - Tubos de Extensión
+    - Repuestos para Cámaras
+    - Cables Flex
+    - Objetivos para Cámara Digital
+    - Revelado y Laboratorio
+    - Ampliadoras Fotográficas
+    - Cortadores de Fotos
+    - Impresoras
+    - Kioskos Digitales
+    - Mini Labs
+    - Álbumes y Portarretratos
+    - Portarretratos Convencionales
+    - Portarretratos Digitales
+    - Álbumes de Fotos
+    - Accesorios para Celulares
+    - Adaptadores
+    - Amplificadores de Señal
+    - Anillos para Celulares
+    - Antenas
+    - Auriculares y Manos Libres
+    - Baterías
+    - Cables de Audio y Video
+    - Cables de Datos
+    - Carcasas Fundas y Protectores
+    - Cargadores y Accesorios
+    - Chips GSM
+    - Colgantes y Soportes
+    - Cortadores de Chips
+    - Fotografía para Celulares
+    - Gatillos Joystick
+    - Impresoras para Celulares
+    - Lectores de Memorias
+    - Lápices Ópticos
+    - Mantas Antiestática
+    - Memorias
+    - Parlantes Externos
+    - Pines Extractores de Sim
+    - Receptores Inalámbricos Qi
+    - Separadores de Displays
+    - Skins
+    - Software
+    - Ventiladores para Celulares
+    - Celulares y Smartphones
+    - Handies y Radiofrecuencia
+    - Accesorios
+    - Equipos Base de Radio
+    - Handies
+    - Lentes de Realidad Virtual
+    - Repuestos de Celulares
+    - Antenas
+    - Bandejas Porta Sim
+    - Baterías
+    - Bisagras
+    - Botones
+    - Carcasas
+    - Cámaras Internas
+    - Displays y LCD
+    - Flex
+    - Kit de Reparación de Celulares
+    - Lentes
+    - Micrófonos
+    - Parlantes Internos
+    - Pines de Carga
+    - Placas Madre
+    - Placas de Carga
+    - Teclados
+    - Trackballs y Joysticks
+    - Smartwatches y Accesorios
+    - Baterías
+    - Cargadores
+    - Mallas
+    - Protectores de Pantalla
+    - Smartwatches
+    - Tarifadores y Cabinas
+    - Cabinas
+    - Tarifadores
+    - Telefonía Fija e Inalámbrica
+    - Accesorios
+    - Caller ID
+    - Centrales Telefónicas
+    - Contestadores
+    - Fax
+    - Teléfonos
+    - Teléfonos Headset
+    - Teléfonos Rurales
+    - Telefonía IP
+    - Gateways
+    - Planes
+    - Routers
+    - Teléfonos
+    - Accesorios de Antiestática
+    - Batas Antiestática
+    - Bolsas Antiestáticas
+    - Guantes Antiestáticos
+    - Kits de Antiestática
+    - Mantas Antiestática
+    - Pinzas Antiestáticas
+    - Pulseras de Protección
+    - Accesorios para PC Gaming
+    - Auriculares
+    - Controles para Gamers
+    - Lentes VR
+    - Micrófonos
+    - Sillas Gamer
+    - Soportes para Auriculares
+    - Tarjetas Prepagas para Juegos
+    - Almacenamiento
+    - Discos y Accesorios
+    - Diskettes
+    - Emuladores de Disqueteras
+    - Pendrives
+    - Tape Backups
+    - USB Padlocks
+    - Cables y Hubs USB
+    - Cables
+    - Hubs USB
+    - Componentes de PC
+    - Coolers y Ventiladores
+    - Discos y Accesorios
+    - Disketteras
+    - Emuladores de Disqueteras
+    - Fuentes de Alimentación
+    - Gabinetes de PC y Soportes
+    - Memorias RAM
+    - Placas
+    - Procesadores
+    - Sintonizadoras de TV
+    - Zip Drives
+    - Conectividad y Redes
+    - Adaptadores USB
+    - Antenas Wireless
+    - Cables de Red y Accesorios
+    - Consolas de Sistema Operativo
+    - Fuentes Poe
+    - Herramientas
+    - Hubs
+    - Modems
+    - Patch Panels
+    - Placas de Red
+    - Racks para Servidores
+    - Routers
+    - Servidores de Impresión
+    - Switches
+    - Telefonía IP
+    - Torres de Comunicación
+    - Estabilizadores y UPS
+    - Baterías para UPS
+    - Estabilizadores
+    - UPS
+    - Impresión
+    - Accesorios
+    - Impresión 3D
+    - Impresoras
+    - Insumos de Impresión
+    - Máquinas de Recarga de Tinta
+    - Repuestos
+    - Sistemas Continuos de Tinta
+    - Laptops y Accesorios
+    - Accesorios para Laptops
+    - Notebooks
+    - Repuestos para Laptops
+    - Lectores y Scanners
+    - Colectores de Datos
+    - Lectoras y Grabadoras
+    - Lectores de Código de Barras 
+    - Lectores de Huellas Digitales
+    - Lectores de Memorias
+    - Lectores de Tarjeta Magnética
+    - Scanners
+    - Limpieza y Cuidado de PCs
+    - Aires Comprimidos
+    - Alcohol Isopropílico
+    - Aspiradoras
+    - Espuma
+    - Grasa Siliconada
+    - Hisopos de Limpieza
+    - Kits de Fundas para PC
+    - Kits de Limpieza
+    - Limpia Contactos
+    - Limpiadores de Pantallas
+    - Localizadores de Fallas
+    - Lubricantes para PC
+    - Paños de Limpieza
+    - Placas de Diagnóstico
+    - Sprays Congelantes
+    - Monitores y Accesorios
+    - Bases
+    - Filtros de Privacidad
+    - Fuentes
+    - Fundas para Monitores
+    - Monitores
+    - Racks de Pared
+    - Soportes
+    - PC de Escritorio
+    - All In One
+    - Mini PCs
+    - PC
+    - Palms y Handhelds
+    - Accesorios
+    - Palms
+    - Periféricos de PC
+    - Mouses y Teclados
+    - Parlantes
+    - Webcams
+    - Proyectores y Pantallas
+    - Estuches para Proyectores
+    - Módulos Led
+    - Pantallas
+    - Piezas de Reposición
+    - Proyectores
+    - Retroproyectores
+    - Soportes
+    - Software
+    - Diseño y Edición
+    - Educación y Referencia
+    - Redes y Servidores
+    - Seguridad y Antivirus
+    - Sistemas Operativos
+    - Software Comercial
+    - Software de Oficina
+    - Softwares para Impresoras
+    - Tablets y Accesorios
+    - Accesorios
+    - E-readers
+    - Repuestos
+    - Tablets
+    - Accesorios para Consolas
+    - Para Atari
+    - Para Family Game
+    - Para NeoGeo
+    - Para Nintendo
+    - Para Otras Consolas
+    - Para PlayStation
+    - Para SEGA
+    - Para Xbox
+    - Accesorios para PC Gaming
+    - Auriculares
+    - Controles para Gamers
+    - Lentes VR
+    - Micrófonos
+    - Sillas Gamer
+    - Soportes para Auriculares
+    - Tarjetas Prepagas para Juegos
+    - Consolas
+    - Flippers y Arcade
+    - Accesorios y Repuestos
+    - Máquinas
+    - Repuestos para Consolas
+    - Para Nintendo
+    - Para Otras Consolas
+    - Para PlayStation
+    - Para SEGA
+    - Para Xbox
+    - Videojuegos
+    - Aberturas
+    - Aleros
+    - Claraboyas
+    - Herrajes
+    - Persianas
+    - Portones
+    - Postigos
+    - Puertas
+    - Ventanas
+    - Accesorios de Construcción
+    - Andamios
+    - Carros y Carretillas
+    - Escaleras
+    - Puntales Telescópicos
+    - Soportes de Vigas
+    - Baños y Sanitarios
+    - Accesorios para Sanitarios
+    - Bachas para Baño
+    - Bañeras
+    - Bidets
+    - Grifería para Baño
+    - Inodoros
+    - Mamparas para Baño
+    - Mingitorios
+    - Muebles para Baño
+    - Sets de Artefactos
+    - Ventilación
+    - Electricidad
+    - Ahorradores de Energía
+    - Balastos
+    - Buscapolos
+    - Cables y Accesorios
+    - Caños Corrugados
+    - Cintas Aisladoras
+    - Cintas Aislantes Líquidas
+    - Energía Solar
+    - Fotocontroles
+    - Fusibles
+    - Grupos Electrógenos
+    - Interruptores y Enchufes
+    - Motores
+    - Multímetros
+    - Pinzas Amperimétricas
+    - Tableros y Medidores
+    - Temporizadores
+    - Transformadores
+    - Maquinarias para Construcción
+    - Allanadoras
+    - Aserradoras
+    - Bloqueras
+    - Hormigoneras
+    - Mezcladoras de Polvo
+    - Otras
+    - Placas Compactadoras
+    - Revocadoras
+    - Rodillos Compactadores
+    - Trituradoras de Mandíbulas
+    - Vibradores de Inmersión
+    - Vibroapisonadores
+    - Materiales de Obra
+    - Adhesivos y Selladores
+    - Alambrados
+    - Alambres
+    - Bolsas de Escombros
+    - Cables de Acero y Accesorios
+    - Caños
+    - Cenefas
+    - Chapas
+    - Construcción en Seco
+    - Fijaciones
+    - Hierros
+    - Obra Pesada
+    - Sogas
+    - Vigas y Viguetas
+    - Mobiliario para Cocinas
+    - Amoblamientos de Cocina
+    - Griferías Convencionales
+    - Griferías Eléctricas
+    - Pinturería
+    - Acabados
+    - Accesorios para Pintura
+    - Diluyentes y Solventes
+    - Pinturas
+    - Terminación de Superficies
+    - Pisos y Revestimientos
+    - Alfombras
+    - Azulejos y Venecitas
+    - Baldosas de Cemento
+    - Cerámica Simil Madera
+    - Cerámicas
+    - Empapelados
+    - Entrepisos
+    - Ladrillos de Vidrio
+    - Molduras
+    - Pisos Flotantes
+    - Pisos Vinílicos
+    - Pisos de Goma
+    - Pisos de Madera
+    - Pisos de Piedra
+    - Placas Antihumedad
+    - Porcelanatos
+    - Revestimientos Cementicios
+    - Zócalos
+    - Plomería
+    - Aislantes Térmicos para Tubos
+    - Aros para Cámara de Inspección
+    - Bombas
+    - Boroscopios
+    - Conexiones
+    - Motobombas a Combustión
+    - Tanques
+    - Artes Marciales y Boxeo
+    - Bolsas y Soportes
+    - Indumentaria
+    - Pisos
+    - Protección y Defensa
+    - Buceo
+    - Antiparras y Snorkels
+    - Capuchas
+    - Chalecos Compensadores
+    - Cinturones de Buceo
+    - Computadores
+    - Cuchillos
+    - Guantes
+    - Indumentaria
+    - Kits de Buceo
+    - Reguladores
+    - Bádminton
+    - Pelotas
+    - Plumas
+    - Raquetas
+    - Sets de Bádminton
+    - Básquet
+    - Aros y Tableros
+    - Indumentaria y Calzado
+    - Pelotas
+    - Redes
+    - Camping, Caza y Pesca
+    - Accesorios de Camping
+    - Artículos para Caza
+    - Equipamiento para Camping
+    - Equipamiento para Pescar
+    - Linternas y Faroles
+    - Canoas, Kayaks e Inflables
+    - Asientos de Kayaks
+    - Canoas
+    - Inflables
+    - Kayaks
+    - Remos
+    - Salvavidas
+    - Tablas de Stand Up
+    - Ciclismo
+    - Accesorios para Bicicletas
+    - Bicicletas
+    - Bicicletas Eléctricas
+    - Bicicletas Fijas
+    - Indumentaria
+    - Repuestos
+    - Equitación y Polo
+    - Artículos para Equitación
+    - Indumentaria
+    - Polainas
+    - Esgrima
+    - Chaquetas
+    - Espadas
+    - Máscaras
+    - Puntas Florete
+    - Esqui y Snowboard
+    - Accesorios
+    - Equipamiento para Esquí
+    - Equipamiento para Snowboard
+    - Indumentaria
+    - Fitness y Musculación
+    - Funcional Pilates y Yoga
+    - Máquinas Cardiovasculares
+    - Máquinas de Musculación
+    - Pesas Discos y Barras
+    - Protección y Rehabilitación
+    - Fútbol
+    - Bolsos y Botineros
+    - Equipamiento y Entrenamiento
+    - Infladores de Pelota
+    - Ropa y Calzado
+    - Fútbol Americano
+    - Cascos
+    - Indumentaria
+    - Pelotas
+    - Golf
+    - Bolsas
+    - Carros Eléctricos
+    - Carros Manuales
+    - Indumentaria
+    - Palos y Sets
+    - Pelotas
+    - Tees
+    - Handball
+    - Indumentaria
+    - Otras
+    - Pelotas
+    - Hockey
+    - Equipamiento
+    - Indumentaria y Calzado
+    - Juegos de Salón
+    - Juegos de Bowling
+    - Mesas Multijuegos
+    - Mesas de Tejo
+    - Metegol
+    - Ping Pong
+    - Pool
+    - Kitesurf
+    - Arneses
+    - Fundas de Tablas
+    - Kites
+    - Tablas
+    - Monopatines y Scooters
+    - Accesorios y Repuestos
+    - Hoverboards
+    - Monociclos Eléctricos
+    - Monopatines
+    - Segways
+    - Tricicletas
+    - Montañismo y Trekking
+    - Accesorios para Escalada
+    - Bastones
+    - Bolsas de Hidratación
+    - Crampones
+    - Indumentaria y Calzado
+    - Magnesieras
+    - Mochilas y Bolsos
+    - Natación
+    - Accesorios para Natación
+    - Tablas
+    - Toallas de Microfibra
+    - Trajes de Baño Deportivos
+    - Vinchas
+    - Paintball
+    - Bolas de Pintura
+    - Cargadores
+    - Cilindros de Co2
+    - Granadas de Humo
+    - Indumentaria y Protección
+    - Marcadoras
+    - O-rings
+    - Remotos
+    - Resortes para Armas de Aire
+    - Parapente
+    - Cascos
+    - Paramotores
+    - Parapentes
+    - Patín y Skateboard
+    - Accesorios
+    - Longboards
+    - Patines para Hielo
+    - Patines y Rollers
+    - Repuestos
+    - Skates Completos
+    - Tablas de Skate
+    - Waveboards
+    - Pilates y Yoga
+    - Bolsters
+    - Camas para Pilates
+    - Ladrillos para Pilates y Yoga
+    - Mats y Colchonetas
+    - Pelotas
+    - Zafus
+    - Pulsómetros y Cronómetros
+    - Bandas Cardíacas
+    - Cronómetros 
+    - Podómetros
+    - Smartbands
+    - Ropa Deportiva
+    - Bolsos Deportivos
+    - Buzos
+    - Calzas
+    - Camperas
+    - Conjuntos Deportivos
+    - Gorras
+    - Guantes
+    - Mangas de Compresión
+    - Medias
+    - Pantalones y Joggings
+    - Remeras y Chombas
+    - Ropa de Danza y Patinaje
+    - Shorts
+    - Tobilleras
+    - Tops
+    - Vestidos
+    - Rugby
+    - Cascos
+    - Indumentaria y Calzado
+    - Pelotas
+    - Protectores
+    - Slackline
+    - Softball y Beisbol
+    - Bates
+    - Caretas para Catcher
+    - Cascos
+    - Guantes
+    - Indumentaria
+    - Mochilas
+    - Pelotas
+    - Sets de Arreos para Catchers
+    - Suplementos y Shakers
+    - Botellas Deportivas
+    - Shakers
+    - Suplementos Deportivos
+    - Surf y Bodyboard
+    - Bodyboard
+    - Fundas para Tablas de Surf
+    - Grips Antideslizantes
+    - Indumentaria
+    - Parafina
+    - Pitas
+    - Ponchos para Surf
+    - Porta Equipajes de Tablas
+    - Quillas
+    - Soportes para Tablas
+    - Tablas
+    - Tenis, Padel y Squash
+    - Antivibradores
+    - Cuerdas y Encordados
+    - Equipamiento
+    - Grips y Cubre Grips
+    - Indumentaria
+    - Muñequeras
+    - Tiro Deportivo
+    - Accesorios y Piezas
+    - Armas de Aire Comprimido
+    - Balines
+    - Kit de Limpieza de Armas
+    - Voley
+    - Indumentaria
+    - Pelotas
+    - Redes
+    - Rodilleras de Voley
+    - Wakeboard y Esqui Acuático
+    - Botas
+    - Esquies
+    - Manillares
+    - Quillas
+    - Tablas
+    - Windsurf
+    - Accesorios
+    - Tablas
+    - Trajes
+    - Velas
+    - Zapatillas
+    - Artefactos de Cuidado Personal
+    - Artefactos para el Cabello
+    - Balanzas de Baño
+    - Nebulizadores
+    - Repuestos y Accesorios
+    - Secadores para Calzado
+    - Climatización
+    - Aires Acondicionados
+    - Calderas
+    - Chimeneas y Salamandras
+    - Climatizadores Portátiles
+    - Cortinas de Aire
+    - Deshumidificadores
+    - Ductos Textiles
+    - Estufas y Calefactores
+    - Repuestos y Accesorios
+    - Termotanques y Calefones
+    - Ventiladores
+    - Cocción
+    - Anafes
+    - Cocinas
+    - Extractores y Purificadores
+    - Hornos
+    - Kits de Anafes y Extractores
+    - Microondas
+    - Repuestos y Accesorios
+    - Dispensadores y Purificadores
+    - Ablandadores de Agua
+    - Dispensers de Agua
+    - Filtros de Ósmosis Inversa
+    - Purificadores de Agua
+    - Repuestos y Accesorios
+    - Lavado
+    - Centros de Lavado
+    - Lavarropas y Lavasecarropas
+    - Lavavajillas
+    - Repuestos y Accesorios
+    - Secarropas
+    - Pequeños Electrodomésticos
+    - Para Cocina
+    - Para Hogar
+    - Refrigeración
+    - Cavas Conservadoras
+    - Cerveceras
+    - Freezers
+    - Frigobares
+    - Heladeras
+    - Repuestos y Accesorios
+    - Accesorios para Audio y Video
+    - Adaptadores
+    - Conversores de Audio y Video
+    - Conversores de TV
+    - Monitores In-Ear
+    - Punteros Láser
+    - Switches y Splitters
+    - Accesorios para TV
+    - Actualización para TV
+    - Antenas Parabólicas
+    - Antenas de TV
+    - Decodificadores para TV
+    - Kits de Antenas Parabólicas
+    - Lentes 3D
+    - Localizadores de Satélites
+    - Soportes
+    - Audio
+    - Amplificadores y Receivers
+    - Asistentes Virtuales
+    - Audio Portátil y Accesorios
+    - Auriculares
+    - CD Players
+    - Cassetteras
+    - Cassettes de Audio
+    - Drivers Cornetas y Diafragmas
+    - Equipos de DJ y Accesorios
+    - Estudio de Grabación
+    - Grabadores
+    - Home Theaters
+    - Megáfonos
+    - Micrófonos y Preamplificadores
+    - MiniDiscs
+    - Minicomponentes
+    - Parlantes y Bafles
+    - Radio Despertadores
+    - Radiograbadores
+    - Radios AM/FM
+    - Sintonizadores
+    - Soportes de Home Theaters
+    - Soportes para Parlantes
+    - Tocadiscos y Accesorios
+    - Torres de Sonido
+    - Cables
+    - Cables Power
+    - Cables de Audio y Video
+    - Cables de Datos
+    - Cables de Red
+    - Mallas Cubre Cables
+    - Componentes Electrónicos
+    - Arduino
+    - Conectores
+    - Conversores de Corriente
+    - Disipadores Térmicos
+    - Displays y LCD
+    - Fuentes Conmutadas
+    - Inversores de Corriente
+    - Lectores Láser
+    - Pasivos
+    - Plaquetas
+    - Programadores
+    - Protoboards
+    - Raspberry Pi
+    - Semiconductores
+    - Sensores Inductivos
+    - Controles Remotos
+    - Para DVD y Video
+    - Para Media Streaming
+    - Para TV
+    - Universales
+    - Drones y Accesorios
+    - Accesorios y Repuestos
+    - Drones
+    - Fundas y Bolsos
+    - Para Controles Remoto
+    - Para Filmadoras
+    - Para Proyectores
+    - Media Streaming
+    - Pilas y Cargadores
+    - Cargadores de Pilas
+    - Pilas
+    - Transformadores y Fuentes
+    - Proyectores y Pantallas
+    - Estuches para Proyectores
+    - Módulos Led
+    - Pantallas
+    - Piezas de Reposición
+    - Proyectores
+    - Retroproyectores
+    - Soportes
+    - Repuestos para TV
+    - Botoneras de TV
+    - Cables Flex
+    - Flybacks
+    - Fuentes para TV
+    - Lámparas de TV
+    - Placas Main
+    - Tira para Led
+    - Televisores
+    - Video
+    - Cassettes de Video
+    - DVDs Portátiles con Pantalla
+    - Receptores Satelitales
+    - Reproductores de Blu-Ray
+    - Reproductores de DVD
+    - Soportes para DVD
+    - Video Casseteras
+    - Entradas de Colección
+    - Eventos Deportivos
+    - Eventos a Beneficio
+    - Exposiciones
+    - Otras Entradas
+    - Recitales
+    - Teatro
+    - Accesorios para Herramientas
+    - Accesorios para Compresores
+    - Baterías
+    - Batidores para Taladros
+    - Cargadores para Baterías
+    - Cuchillas para Cepilladoras
+    - Discos y Piedras
+    - Escobillas de Carbón
+    - Guardacabos
+    - Hojas para Sierras
+    - Inducidos
+    - Kit de Consumibles para Plasma
+    - Kits para Minitornos
+    - Lupas
+    - Poleas
+    - Puntas y Adaptadores
+    - Rodeles
+    - Soldado
+    - Soportes para Taladros
+    - Tijeras
+    - Cajas y Organizadores
+    - Bancos de Trabajo
+    - Bandejas Imantadas
+    - Bolsos de Herramientas
+    - Cajas de Herramientas
+    - Cajas de Inglete
+    - Cartucheras Portaherramientas
+    - Gabinetes para Herramientas
+    - Maletines de Herramientas
+    - Mesas Organizadoras
+    - Organizadores de Herramientas
+    - Tableros de Herramientas
+    - Herramientas Eléctricas
+    - Afiladores
+    - Amarradoras de Varillas
+    - Atornillador y Destornillador
+    - Canteadoras
+    - Compresores
+    - Corte
+    - Detectores de Metales
+    - Equipos para Pintar
+    - Kit de Herramientas Eléctricas
+    - Lijado Desbaste y Pulido
+    - Limpieza
+    - Llaves de Impacto
+    - Mezcladores de Pintura
+    - Multiherramientas Oscilantes
+    - Perforación
+    - Pirograbadores
+    - Pistolas de Calor
+    - Pistolas para Pintar
+    - Soldadura
+    - Termofusoras
+    - Herramientas Industriales
+    - Balanceadoras de Ruedas
+    - Bobinadoras
+    - CNC
+    - Calderas Industriales
+    - Carga y Descarga
+    - Colectores de Polvo
+    - Conformado
+    - Enfriadores de Agua
+    - Equip. Pintura Electrostática
+    - Escopleadoras
+    - Hornos y Tratamiento Térmico
+    - Mecanizado y Acabado
+    - Motores Estacionarios
+    - Máquinas Copiadoras de Llaves
+    - Máquinas Pelacables
+    - Pegadoras de Cantos
+    - Plasturgia
+    - Rebobinadoras para Papel
+    - Repuestos
+    - Sierras Sin Fin
+    - Taladros a Combustión
+    - Herramientas Manuales
+    - Aceiteras Manuales
+    - Albañilería
+    - Corte y Desbaste
+    - Elevación y Tracción
+    - Engrasadores
+    - Espejos Telescópicos
+    - Extracción
+    - Fijación
+    - Ganzúas
+    - Martillos
+    - Morsas
+    - Pinzas
+    - Prensas Sargento
+    - Sets de Herramientas
+    - Sopapas Ventosas
+    - Sopletes
+    - Yunques
+    - Zancos
+    - Herramientas Neumáticas
+    - Aerógrafos
+    - Amoladoras Neumáticas
+    - Engrapadoras y Clavadoras
+    - Lijadoras Neumáticas
+    - Pistolas para Pintar
+    - Taladros Neumáticos
+    - Herramientas para Jardín
+    - Chipeadoras
+    - Chipeadoras Eléctricas
+    - Chipeadoras a Combustión
+    - Cortacerco
+    - Cortadoras de Césped
+    - Desmalezadoras y Bordeadoras
+    - Fumigadores
+    - Herramientas Multifuncionales
+    - Hoyadoras de Combustión
+    - Motocultivadores
+    - Motosierras
+    - Otras
+    - Podadoras de Altura
+    - Pulverizadores a Explosión
+    - Recogedores de Frutas
+    - Repuestos
+    - Sopladoras
+    - Utensilios de Jardinería
+    - Testers y Equipos de Medición
+    - Caudalimetro
+    - Cuenta Ganado
+    - Densímetros
+    - Durómetros
+    - Escuadras de Precisión
+    - Medidores Ambientales
+    - Medidores de Distancia
+    - Medidores de Electricidad
+    - Medidores de Espesores
+    - Medidores de Fuerza
+    - Medidores de Leche Eléctricos
+    - Medidores de Longitud
+    - Medidores de Presión
+    - Medidores de Ángulos
+    - Niveles
+    - Pistolas Infrarrojas
+    - Refractómetros
+    - Tacómetros Portátiles
+    - Termostatos Digitales
+    - Válvulas Reguladora de Oxígeno
+    - Adornos y Decoración del Hogar
+    - Alcancías
+    - Atrapasueños
+    - Banderines y Guirnaldas
+    - Barriles
+    - Biombos
+    - Bolitas de Gel
+    - Cajas Cajones y Canastos
+    - Ceniceros
+    - Columnas Decorativas
+    - Cortinas y Accesorios
+    - Cuadros Carteles y Espejos
+    - Figuras Decorativas
+    - Fuentes de Agua
+    - Imanes Decorativos
+    - Jaulas Decorativas
+    - Llamadores de Ángeles
+    - Paneles Decorativos
+    - Plantas y Flores Artificiales
+    - Porta Llaves
+    - Portarretratos
+    - Péndulos de Newton
+    - Relojes
+    - Soportes de Lectura
+    - Sujetalibros
+    - Velas y Fanales
+    - Vinilos Decorativos
+    - Árboles y Adornos de Navidad
+    - Bazar y Cocina
+    - Almacenamiento y Organización
+    - Artículos de Vino y Coctelería
+    - Artículos para Compras
+    - Bombas para Bidones
+    - Café Té y Mate
+    - Cocción y Horneado
+    - Cubeteras y Hieleras
+    - Delantales de Cocina
+    - Repasadores
+    - Utensilios de Preparación
+    - Utensilios de Repostería
+    - Vajilla y Artículos de Servir
+    - Baños
+    - Accesorios para Baños
+    - Alfombras para Baño
+    - Bachas para Baño
+    - Barrales y Cortinas de Baño
+    - Bañeras
+    - Espejos para Baños
+    - Generadores de Vapor
+    - Grifería para Baño
+    - Mamparas para Baño
+    - Platos de Ducha
+    - Sanitarios
+    - Sifones de Desague
+    - Toallas Toallones y Batas
+    - Camas, Colchones y Accesorios
+    - Almohadas
+    - Bases para Sommiers
+    - Camas
+    - Colchones
+    - Juegos de Sommier y Colchón
+    - Respaldos
+    - Ropa de Cama
+    - Sommiers Masajeadores
+    - Cuidado del Hogar y Lavandería
+    - Accesorios de Limpieza
+    - Accesorios para Lavandería
+    - Cuidado del Calzado
+    - Desechables
+    - Insecticidas y Repelentes
+    - Productos de Lavandería
+    - Productos de Limpieza
+    - Iluminación para el Hogar
+    - Accesorios
+    - Focos
+    - Luces de Emergencia
+    - Lámparas
+    - Reflectores Cuarzo
+    - Tiras de LED
+    - Jardin y Aire Libre
+    - Cercos y Tranqueras
+    - Decoración de Exterior
+    - Hornos Parrillas y Accesorios
+    - Insecticidas y Repelentes
+    - Invernaderos y Carpas
+    - Jardinería y Accesorios
+    - Lonas Playeras
+    - Muebles para Exterior
+    - Piletas y Accesorios
+    - Rejillas
+    - Riego
+    - Sillones Inflables
+    - Spa Exterior
+    - Tejidos Mosquiteros
+    - Toldos y Cerramientos
+    - Muebles para el Hogar
+    - Accesorios y Repuestos
+    - Bares
+    - Bibliotecas y Estanterías
+    - Camas Bases y Respaldos
+    - Cunas Catres y Moisés
+    - Escritorios
+    - Estanterías
+    - Juegos y Sets de Muebles
+    - Mesas Ratonas y Auxiliares
+    - Mesas de Computación
+    - Mesas de Jardín
+    - Mesas de Luz
+    - Mobiliario para Cocinas
+    - Muebles de Guardado
+    - Muebles para Baño
+    - Muebles para TV
+    - Pupitres
+    - Sillas Sillones y Banquetas
+    - Tocadores
+    - Organización para el Hogar
+    - Baúles
+    - Bolsas al Vacío
+    - Cajas
+    - Cajones de Madera
+    - Canastos
+    - Organizadores de Escritorio
+    - Organizadores de Maquillaje
+    - Organizadores de Ropa
+    - Organizadores para Cocina
+    - Paragüeros
+    - Revisteros
+    - Secaplatos
+    - Seguridad para el Hogar
+    - Automatización para Portones
+    - Cajas Fuertes
+    - Films de Seguridad
+    - Herrajes de Seguridad
+    - Localizadores de Llaves
+    - Puertas Blindadas
+    - Redes para Balcones
+    - Rejas
+    - Seguridad Perimetral
+    - Sistemas de Monitoreo
+    - Timbres
+    - Textiles de Hogar y Decoración
+    - Aguayos
+    - Alfombras y Carpetas
+    - Almohadas
+    - Almohadones
+    - Fundas
+    - Mantas para Sillones
+    - Mantelería y Platos de Sitio
+    - Pabellones para Camas
+    - Ropa de Cama
+    - Tapices
+    - Textiles de Cocina
+    - Toallas Toallones y Batas
+    - Arquitectura y Diseño
+    - Materiales
+    - Planos
+    - Tableros
+    - Embalaje y Logística
+    - Bolsos Térmicos para Delivery
+    - Envasadoras
+    - Materiales
+    - Racionadores de Cintas
+    - Selladoras
+    - Túneles Termocontraíbles
+    - Zunchadoras
+    - Equipamiento Médico
+    - Cabinas de Flujo Laminar
+    - Centrífugas Digitales
+    - Desfibriladores Externos
+    - Educación y Entrenamiento
+    - Encapsuladoras Manuales
+    - Equipamiento Odontológico
+    - Equipos de Magnetoterapia
+    - Equipos de Monitoreo
+    - Instrumental Médico
+    - Material de Laboratorio
+    - Mobiliario Clínico
+    - Oxigenoterapia
+    - Equipamiento para Comercios
+    - Balanzas
+    - Butacas para Cines y Teatros
+    - Carros de Supermercado
+    - Cestas de Supermercado
+    - Cobro y Control
+    - Cortinas Frigoríficas
+    - Cortinas Metálicas
+    - Dispensadores de Vasos
+    - Etiquetado de Mercadería
+    - Expendedoras de Números
+    - Locutorios
+    - Máquinas Expendedoras
+    - Organización y Exhibición
+    - Equipamiento para Oficinas
+    - Boxes para Oficinas
+    - Control de Acceso y Asistencia
+    - Cortadoras de Tarjetas
+    - Fotocopiadoras y Accesorios
+    - Impresoras de Credenciales
+    - Mesas Sillas y Escritorios
+    - Muebles de Guardado
+    - Organización para Oficinas
+    - Teléfonos y Faxes
+    - Trituradoras
+    - Gastronomía y Hotelería
+    - Accesorios para Restaurantes
+    - Cafeteras
+    - Carritos de Comida
+    - Carros Gastronómicos
+    - Cervecería Artesanal
+    - Cocción
+    - Equipamiento de Panadería
+    - Fabricadora de Helados
+    - Fabricadoras de Hielo
+    - Limpieza y Organización
+    - Mantenedores Calientes
+    - Mesas de Trabajo
+    - Máquinas Pochocleras
+    - Preparación de Bebidas
+    - Procesado de Alimentos
+    - Refrigeración
+    - Tratamiento de Lácteos
+    - Tratamiento de la Carne
+    - Gráfica e Impresión
+    - Cortadores de Cinta Eléctricos
+    - Cuchillas para Plotters
+    - Hendidoras
+    - Impresoras Offset
+    - Impresoras Térmicas
+    - Máquinas Fechadoras
+    - Plastificado
+    - Plotters de Corte
+    - Serigrafía
+    - Tampográficas
+    - Herramientas Industriales
+    - Balanceadoras de Ruedas
+    - Bobinadoras
+    - CNC
+    - Calderas Industriales
+    - Carga y Descarga
+    - Colectores de Polvo
+    - Conformado
+    - Enfriadores de Agua
+    - Equip. Pintura Electrostática
+    - Escopleadoras
+    - Hornos y Tratamiento Térmico
+    - Mecanizado y Acabado
+    - Motores Estacionarios
+    - Máquinas Copiadoras de Llaves
+    - Máquinas Pelacables
+    - Pegadoras de Cantos
+    - Plasturgia
+    - Rebobinadoras para Papel
+    - Repuestos
+    - Sierras Sin Fin
+    - Taladros a Combustión
+    - Publicidad y Promoción
+    - Carteles
+    - Carteles Luminosos
+    - Folletos
+    - Identificación para Eventos
+    - Inflables Danzantes
+    - Merchandising
+    - Portafolletos
+    - Vinilos
+    - Volantes
+    - Seguridad Laboral
+    - Alfombras Antifatiga
+    - Botiquines
+    - Chalecos Reflectivos
+    - Cinta Antideslizante
+    - Detectores de Gases
+    - Equipos Contra Incendios
+    - Limpieza y Sanitización
+    - Protección Personal
+    - Señalización
+    - Textil y Calzado
+    - Confección de Ropa
+    - Fabricación de Ojotas
+    - Lavado y Planchado
+    - Uniformes y Ropa de Trabajo
+    - Ambos Médicos
+    - Camisas
+    - Camperas de Trabajo
+    - Mamelucos
+    - Medias de Trabajo
+    - Pantalones
+    - Trajes de Bombero
+    - Uniformes Gastronómicos
+    - Uniformes de Trabajo Doméstico
+    - Baterías y Percusión
+    - Accesorios para Percusión
+    - Agogós
+    - Atabaques
+    - Bar Chimes
+    - Baterías
+    - Bombos
+    - Bongos
+    - Cajas Chinas
+    - Cajones
+    - Castañuelas
+    - Cencerros
+    - Djembes
+    - Guiros
+    - Kalimbas
+    - Maracas
+    - Ovni Drum
+    - Pads de Práctica
+    - Palos de Lluvia
+    - Panderetas
+    - Redoblantes
+    - Surdos
+    - Tablas de Lavar
+    - Tamborines
+    - Timbales
+    - Toms
+    - Triángulos
+    - Tumbadoras y Congas
+    - Xilófonos y Metalófonos
+    - Equipos de DJ y Accesorios
+    - Accesorios de DJs
+    - Bandejas
+    - Compacteras de DJs
+    - Controladores
+    - Divisores de Frecuencia
+    - Ecualizadores
+    - Luces y Efectos
+    - Mixers de DJs
+    - Procesadores de Efectos
+    - Soportes de Consolas de Sonido
+    - Estudio de Grabación
+    - Consolas de Sonido
+    - Interfaces de Audio
+    - Monitores de Estudio
+    - Placas Acústicas
+    - Software de Audio
+    - Instrumentos de Cuerdas
+    - Accesorios
+    - Arpas
+    - Bajos
+    - Banjos
+    - Cavaquiños
+    - Charangos
+    - Contrabajos
+    - Guitarras
+    - Mandolinas
+    - Ukeleles
+    - Violas
+    - Violines
+    - Violoncellos
+    - Instrumentos de Viento
+    - Accesorios
+    - Acordeones y Concertinas
+    - Armónicas
+    - Bandoneones
+    - Berrantes
+    - Clarinetes
+    - Cornos Franceses
+    - Didgeridoos
+    - Flautas
+    - Gaitas
+    - Kazoos
+    - Melódicas
+    - Ocarinas
+    - Quenas
+    - Saxos
+    - Shofar
+    - Trombones
+    - Trompetas
+    - Tubas
+    - Metrónomos
+    - Micrófonos y Amplificadores
+    - Amplificadores
+    - Micrófonos
+    - Pies de Micrófono
+    - Preamplificadores
+    - Parlantes y Bafles
+    - Partituras y Letras
+    - Atriles
+    - Batutas
+    - Partituras
+    - Pedales y Accesorios
+    - Cables y Adaptadores
+    - Estuches
+    - Footswitches
+    - Fuentes de Alimentación
+    - Pedalboards
+    - Pedales de Expresión
+    - Pedales y Pedaleras de Efectos
+    - Teclados y Pianos
+    - Accesorios
+    - Controladores Midi
+    - Pianos Digitales
+    - Pianos de Cola y Verticales
+    - Sintetizadores
+    - Teclados Musicales
+    - Órganos
+    - Exhibidores y Joyeros
+    - Alhajeros y Joyeros
+    - Paños de Joyería
+    - Insumos para Joyería
+    - Herramientas
+    - Materiales para Joyería
+    - Joyas y Bijouterie
+    - Alianzas
+    - Anillos
+    - Anillos Reloj
+    - Aros
+    - Dijes
+    - Gemelos
+    - Prendedores y Broches
+    - Pulseras
+    - Tobilleras
+    - Piedras Preciosas
+    - Piercings
+    - Plumas y Lapiceras de Lujo
+    - Relojes
+    - Despertadores y de Mesa
+    - Relojes Pulsera
+    - Relojes de Bolsillo
+    - Relojes de Pared
+    - Relojes de Pie
+    - Smartbands
+    - Smartwatches
+    - Repuestos para Relojes
+    - Cajas Portarelojes
+    - Hebillas
+    - Kits de Herramientas
+    - Mallas
+    - Películas Protectoras
+    - Pilas
+    - Soportes para Relojes
+    - Armas y Lanzadores de Juguete
+    - Accesorios y Municiones
+    - Arcos y Flechas
+    - Espadas
+    - Otras Armas
+    - Pistolas de Agua
+    - Pistolas y Escopetas
+    - Arte y Manualidades
+    - Arena Mágica
+    - Atriles Pizarras y Pizarrones
+    - Kits de Bijouterie para Niños
+    - Kits de Pintura por Diamantes
+    - Kits para Hacer Slime
+    - Masas y Plastilina
+    - Rainbow Bands
+    - Casas y Carpas para Niños
+    - Carpas para Niños
+    - Casas Infantiles
+    - Electrónicos para Niños
+    - Alfombras De Baile
+    - Celulares de Juguete
+    - Computadoras Didácticas
+    - Drones de Juguete
+    - Mascotas Virtuales
+    - Pelotas Deslizantes
+    - Relojes de Juguete
+    - Robots de Juguete
+    - Walkie Talkies
+    - Figuritas, Álbumes y Cromos
+    - Figuritas y Cromos
+    - Álbumes de Cartas
+    - Álbumes de Figuritas
+    - Hobbies
+    - Juegos de Magia
+    - Modelismo
+    - Scalextric
+    - Instrumentos Musicales
+    - Baterías
+    - Guitarras
+    - Micrófonos
+    - Pianos y Organos
+    - Juegos de Agua y Playa
+    - Alfombras de Agua
+    - Burbujeros
+    - Centros de Juegos Inflables
+    - Deslizadores de Agua
+    - Inflables para Piscina
+    - Juguetes de Playa
+    - Piletas Inflables
+    - Pistolas de Agua
+    - Juegos de Mesa y Cartas
+    - Ajedrez
+    - Cartas Coleccionables R.P.G.
+    - Cartas Didácticas
+    - Dados
+    - Juegos de Mesa
+    - Mesas de Ruleta
+    - Naipes Españoles
+    - Poker
+    - Rompecabezas y Puzzles
+    - Juegos de Plaza y Aire Libre
+    - Barriletes y Accesorios
+    - Camas Elásticas
+    - Deportes
+    - Juegos de Plaza
+    - Malabares
+    - Pelotas y Animales Saltarines
+    - Resortes para Camas Elásticas
+    - Juegos de Salón
+    - Dardos
+    - Flippers y Arcade
+    - Fútbol de Botón
+    - Juegos de Bowling
+    - Mesas Multijuegos
+    - Mesas de Ruleta
+    - Mesas de Tejo
+    - Metegol
+    - Ping Pong
+    - Poker
+    - Pool
+    - Repuestos para Mesas de Tejo
+    - Sapo
+    - Juguetes Antiestrés e Ingenio
+    - Cubos Mágicos
+    - Fidget Cube
+    - Fidget Spinners
+    - Pop Its
+    - Rompecabezas y Puzzles
+    - Squishys
+    - Sudoku
+    - Trompos
+    - Juguetes de Bromas
+    - Juguetes de Construcción
+    - Bloques y Figuras para Armar
+    - Escenarios y Playsets
+    - Juguetes de Oficios
+    - Alimentos de Juguete
+    - Binoculares de Juguete
+    - Electrodomésticos de Juguete
+    - Juguetes de Cocina
+    - Sets de Belleza para Niños
+    - Supermercado de Juguete
+    - Tablas de Planchar
+    - Taller de Herramientas
+    - Tocadores
+    - Valijitas de Juguete
+    - Juguetes para Bebés
+    - Caballitos Mecedores
+    - Centros de Actividades
+    - Computadoras Didácticas
+    - Juegos de Arrastre
+    - Juegos de Encastre y Apilables
+    - Juguetes para el Baño
+    - Laberintos y Cubos Didácticos
+    - Mecedoras y Saltarines
+    - Mesas Didácticas
+    - Muñecos de Estimulación
+    - Móviles
+    - Pelotas
+    - Sonajeros
+    - Mesas y Sillas para Niños
+    - Muñecos y Muñecas
+    - Accesorios
+    - Muñecas de Porcelana
+    - Muñecas y Bebotes
+    - Muñecos y Figuras de Acción
+    - Sets de Muñecos
+    - Soldaditos
+    - Patines y Patinetas
+    - Patines
+    - Patinetas
+    - Peloteros y Castillos
+    - Accesorios
+    - Pelotas para Peloteros
+    - Peloteros
+    - Toboganes
+    - Peluches
+    - Títeres y Marionetas
+    - Marionetas
+    - Patinetas para Dedos
+    - Títeres
+    - Vehículos Montables para Niños
+    - Accesorios y Repuestos
+    - Bicicletas
+    - Camicletas
+    - Monopatines
+    - Triciclos
+    - Vehículos a Batería
+    - Vehículos a Pedal
+    - Vehículos de Juguete
+    - Exhibidoras de Autitos
+    - Pistas y Lanzadores
+    - Repuestos
+    - Vehículos Sin Control Remoto
+    - Vehículos a Control Remoto
+    - Vehículos a Escala
+    - Vehículos de Muñecos y Muñecas
+    - Catálogos
+    - Ebooks
+    - Libros Físicos
+    - Revistas
+    - Contenido Deportivo
+    - Cursos
+    - Música
+    - Peliculas Online
+    - Películas
+    - Series de TV
+    - Series y Tv Shows Online
+    - Videos de Recetas y DIY
+    - Abrigos
+    - Buzos y Hoodies
+    - Camperas Tapados y Trenchs
+    - Saquitos Sweaters y Chalecos
+    - Accesorios de Moda
+    - Abanicos
+    - Accesorios para el Cabello
+    - Anteojos y Accesorios
+    - Antifaces para Dormir
+    - Bufandas y Pañuelos
+    - Cinturones
+    - Corbatas
+    - Espejitos
+    - Fajas
+    - Filtros para Tapabocas
+    - Gorros Sombreros y Boinas
+    - Guantes y Mitones
+    - Llaveros
+    - Orejeras
+    - Paraguas
+    - Pareos
+    - Polainas
+    - Prendedores y Broches
+    - Tapabocas Reutilizables
+    - Tiradores
+    - Toallas de Playa
+    - Traba Corbatas
+    - Bermudas y Shorts
+    - Blusas
+    - Calzado
+    - Alpargatas
+    - Botas y Botinetas
+    - Chatitas
+    - Cubre Zapatos
+    - Kits de Mocasines y Oxfords
+    - Mocasines y Oxfords
+    - Pantuflas
+    - Sandalias y Ojotas
+    - Stilletos y Plataformas
+    - Zapatillas
+    - Calzas
+    - Camisas
+    - Enteritos
+    - Equipaje, Bolsos y Carteras
+    - Accesorios
+    - Billeteras y Monederos
+    - Carteras
+    - Equipaje y Accesorios de Viaje
+    - Kits de Mochilas Escolares
+    - Luncheras Escolares
+    - Maletines
+    - Mochilas
+    - Neceseres
+    - Riñoneras
+    - Sets de Carteras
+    - Indumentaria Laboral y Escolar
+    - Accesorios Tácticos
+    - Guardapolvos Escolares
+    - Ropa Militar y Policial
+    - Uniformes Escolares
+    - Uniformes y Ropa de Trabajo
+    - Kimonos
+    - Lotes de Ropa
+    - Pantalones
+    - Polleras
+    - Remeras, Musculosas y Chombas
+    - Ropa Deportiva
+    - Bolsos Deportivos
+    - Buzos
+    - Calzas
+    - Camperas
+    - Conjuntos Deportivos
+    - Gorras
+    - Guantes
+    - Mangas de Compresión
+    - Medias
+    - Pantalones y Joggings
+    - Remeras y Chombas
+    - Ropa de Danza y Patinaje
+    - Shorts
+    - Tobilleras
+    - Tops
+    - Vestidos
+    - Ropa Interior y de Dormir
+    - Ropa Interior
+    - Ropa de Dormir
+    - Ropa y Calzado para Bebés
+    - Accesorios
+    - Batas
+    - Bermudas y Shorts
+    - Blusas
+    - Bodys
+    - Buzos
+    - Calzados
+    - Camisas
+    - Camperas
+    - Conjuntos
+    - Jardineros
+    - Kits para Salida del Hospital
+    - Medias
+    - Pantalones
+    - Pijamas
+    - Polleras
+    - Remeras Musculosas y Chombas
+    - Saquitos y Sweaters
+    - Trajes de Baño
+    - Vestidos
+    - Trajes
+    - Trajes de Baño
+    - Vestidos
+    - Cuidado de la Salud
+    - Audífonos
+    - Balanzas de Baño
+    - Botiquines
+    - Correctores de Juanetes
+    - Farmacia
+    - Filtros para Tapabocas
+    - Lentes de Contacto
+    - Luces Sanitizantes
+    - Pastilleros
+    - Pistolas Sanitizantes
+    - Protección para Incontinencia
+    - Pulseras Anti Náuseas
+    - Tapabocas Reutilizables
+    - Tensiómetros
+    - Terapias de Frío y Calor
+    - Termómetros
+    - Tratamientos Respiratorios
+    - Tratamientos para Piojos
+    - Tratamientos para Ronquidos
+    - Equipamiento Médico
+    - Cabinas de Flujo Laminar
+    - Centrífugas Digitales
+    - Desfibriladores Externos
+    - Educación y Entrenamiento
+    - Encapsuladoras Manuales
+    - Equipamiento Odontológico
+    - Equipos de Magnetoterapia
+    - Equipos de Monitoreo
+    - Instrumental Médico
+    - Material de Laboratorio
+    - Mobiliario Clínico
+    - Oxigenoterapia
+    - Masajes
+    - Camillas y Sillas
+    - Masajeadores
+    - Piedras para Masajes
+    - Movilidad
+    - Andadores
+    - Ayudas para el Baño
+    - Bastones
+    - Elevadores de Pacientes
+    - Muletas
+    - Sillas de Ruedas y Repuestos
+    - Sujetadores de Pacientes
+    - Ortopedia
+    - Botas Ortopédicas
+    - Cabestrillos
+    - Coderas
+    - Collares Cervicales
+    - Espalderas
+    - Fajas Lumbares y Abdominales
+    - Férulas
+    - Hombreras
+    - Musleras y Pantorrilleras
+    - Muñequeras
+    - Podología
+    - Prótesis Mamarias Externas
+    - Rodilleras
+    - Taloneras
+    - Tobilleras
+    - Suplementos Alimenticios
+    - Terapias Alternativas
+    - Acupuntura
+    - Almohadillas Relajantes
+    - Aromaterapia
+    - Contadores y Estudios
+    - Abogados y Estudios Jurídicos
+    - Gestores
+    - Tasadores
+    - Productores de Seguros
+    - Despachantes de Aduana
+    - Masajes y Tratamientos
+    - Estética
+    - Cuidado Personal
+    - Depilación
+    - Peluquería
+    - Cosmetología
+    - Manicuría y Pedicuría
+    - Maquilladoras y Peinadoras
+    - Tatuajes y Piercings
+    - Diseñadores Gráficos
+    - Marketing y Publicidad
+    - Traductores
+    - Locutores
+    - Idiomas
+    - Apoyo Escolar y Universitario
+    - Instrumentos Musicales
+    - Deportes
+    - Computación e Informática
+    - Manejo
+    - Canto y Baile
+    - Artes Plásticas
+    - Cocina
+    - Animación y Alquiler de juegos
+    - Salones y Quintas
+    - Servicios Audiovisuales
+    - Alquiler de Mobiliario
+    - Catering
+    - Alquiler de Equipos
+    - Decoración y Ambientación
+    - Bebidas
+    - Alquiler de Carpas y Gazebos
+    - Fotografía
+    - Música
+    - Cine y Televisión
+    - Obras y Construcción
+    - Mantenimiento del Hogar
+    - Instalación y Servicio Técnico
+    - Impresiones en Gran Formato
+    - Folletería y Catálogos
+    - Impresiones Láser
+    - Talleres
+    - Cuidado del Vehículo
+    - Llantas y Neumáticos
+    - Diagnósticos
+    - Lubricentros
+    - Tunning
+    - Service Programado
+    - Parabrisas y Cristales
+    - Seguridad Vehicular
+    - Profesionales
+    - Servicios de Ortopedia
+    - Estudios Varios
+    - Servicios de Ambulancia
+    - Prepagas
+    - Esoterismo
+    - Carga Virtual
+    - Inyección de Plástico
+    - Confección
+    - Estampados
+    - Arreglos
+    - Corte y Moldería
+    - Lavandería y Tintorería
+    - Bordados
+    - Pensionados y Guarderías
+    - Cruza
+    - Traslados
+    - Peluquerías Caninas
+    - Veterinaria
+    - Paseadores de Perros
+    - Perros en Adopción
+    - Adiestramiento Canino
+    - Cuidado e Higiene
+    - Dispensers y Expendedoras
+    - Fotocopiadoras
+    - Montacargas y Ascensores
+    - Equipos de Fitness
+    - Computación
+    - Celulares y Telefonía
+    - Audio y Video
+    - Programadores
+    - Consolas
+    - Alarmas y Camaras de Seguridad
+    - Relojes
+    - Cámaras Digitales
+    - GPS
+    - Mudanzas
+    - Pasajeros
+    - Alquiler de autos
+    - Remolques
+    - Encomiendas y Mensajerías
+    - Alojamiento
+    - Alquiler de Autos
+    - Paquetes Turísticos
+    - Excursiones y Paseos
+    - Pasajes
+    - Asistencia al Viajero
+    - Accesorios para Cosplay
+    - Escudos
+    - Guantes
+    - Kits de Cosplay
+    - Varitas
+    - Cotillón
+    - Anillos
+    - Anteojos
+    - Antifaces
+    - Badanas
+    - Collares y Pulseras
+    - Combos de Cotillón
+    - Coronas y Vinchas
+    - Inflables
+    - Máscaras
+    - Pelucas
+    - Silbatos
+    - Sombreros y Gorros
+    - Decoración para Fiestas
+    - Banderines y Guirnaldas
+    - Centros de Mesa
+    - Globos y Accesorios
+    - Kits de Decoración
+    - Luces Sumergibles
+    - Lámparas de Papel
+    - Manteles
+    - Mesa de Dulces y Repostería
+    - Paneles para Fiestas
+    - Piñatas
+    - Pompones
+    - Velas Bengalas y Estrellitas
+    - Descartables para Fiestas
+    - Cajas para Pochoclos
+    - Copas
+    - Kits
+    - Platos
+    - Servilletas
+    - Sorbetes
+    - Vasos Descartables
+    - Disfraces
+    - Espuma, Serpentina y Confeti
+    - Cañones Lanza Papelitos
+    - Espumas en Aerosol
+    - Polvos de Colores
+    - Serpentinas
+    - Invitaciones y Tarjetas
+    - Kits Imprimibles para Fiestas
+    - Props para Photo Booths
+    - Souvenirs
+    - Artículos para Fumadores
+    - Armado de Cigarros
+    - Bencina
+    - Bongs
+    - Cajas de Fósforos
+    - Ceniceros
+    - Cortapuros
+    - Encendedores
+    - Humidores
+    - Narguiles y Accesorios
+    - Pipas
+    - Tabaco y Cigarrillos
+    - Coberturas Extendidas
+    - Criptomonedas
+    - Billeteras para Criptomonedas
+    - Minería de Criptomonedas
+    - Esoterismo
+    - Cartas de Tarot
+    - Cuencos Tibetanos
+    - Cálices
+    - Dijes
+    - Ostensórios
+    - Perfumes
+    - Piedras Energéticas
+    - Porta Sahumerios
+    - Péndulos
+    - Púlpitos
+    - Rosarios
+    - Runas
+    - Sagrarios
+    - Sahumerios
+    - Velas
+    - Gift Cards
+    - Hornos Crematorios
+    - Insumos para Tatuajes
+    - Agujas
+    - Apoyabrazos
+    - Bobinas para Máquinas
+    - Celulares Prueba
+    - Clipcords
+    - Cremas
+    - Fuentes
+    - Kits
+    - Libros Prueba
+    - Maquinas Rotativas
+    - Máquinas de Bobina
+    - Neumáticos Prueba
+    - Papeles Hectográficos
+    - Pedales
+    - Punteras
+    - Sillones de Tatuador
+    - Tatuajes Temporales
+    - Tetinas
+    - Tintas
+    - Kits de Criminalística
+    - Licencias para Taxis
+    - Mangas de Viento
+    - Propina
+    - Ácido Clorhídrico
+- lookup: categoria
+  examples: |
+    - Accesorios para Vehículos
+    - Agro
+    - Alimentos y Bebidas
+    - Animales y Mascotas
+    - Antigüedades y Colecciones
+    - Arte, Librería y Mercería
+    - Arte Librería y Mercería
+    - Bebés
+    - Belleza y Cuidado Personal
+    - Cámaras y Accesorios
+    - Celulares y Teléfonos
+    - Computación
+    - Consolas y Videojuegos
+    - Construcción
+    - Deportes y Fitness
+    - Electrodomésticos y Aires Ac.
+    - Electrónica, Audio y Video
+    - Electrónica Audio y Video
+    - Entradas para Eventos
+    - Herramientas
+    - Hogar, Muebles y Jardín
+    - Hogar Muebles y Jardín
+    - Industrias y Oficinas
+    - Instrumentos Musicales
+    - Joyas y Relojes
+    - Juegos y Juguetes
+    - Libros, Revistas y Comics
+    - Música, Películas y Series
+    - Ropa y Accesorios
+    - Salud y Equipamiento Médico
+    - Servicios
+    - Souvenirs, Cotillón y Fiestas
+    - Souvenirs Cotillón y Fiestas
+    - Otras categorías
